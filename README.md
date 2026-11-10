@@ -1,1 +1,1 @@
-# kalomoricautomation.github.io
+# kalomorichautomation.github.io
