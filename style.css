@@ -1,0 +1,13 @@
+:root{--bg:#0b0716;--panel:#141024;--text:#e9e4f5;--muted:#a59cbf;--gold:#e8c478;--violet:#8b6cff}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#2a1650 0%,var(--bg) 60%);background-color:var(--bg);color:var(--text);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;min-height:100vh}
+main{max-width:760px;margin:0 auto;padding:56px 20px 80px}
+.mark{width:84px;height:84px;border-radius:50%;border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:300;font-size:30px;letter-spacing:1px;box-shadow:0 0 40px rgba(139,108,255,.45),inset 0 0 24px rgba(139,108,255,.35);margin-bottom:28px}
+h1{font-weight:300;letter-spacing:.32em;text-transform:uppercase;font-size:clamp(26px,6vw,40px);margin:0 0 4px;color:#faefd6}
+.sub{letter-spacing:.35em;text-transform:uppercase;color:var(--gold);font-size:13px;margin:0 0 36px}
+h2{font-weight:500;font-size:20px;margin:36px 0 8px;color:#faefd6}
+p,li{color:var(--text)}
+.muted{color:var(--muted)}
+a{color:var(--gold)}
+.card{background:var(--panel);border:1px solid rgba(232,196,120,.18);border-radius:14px;padding:22px 24px;margin:24px 0}
+nav{display:flex;gap:20px;flex-wrap:wrap;margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);font-size:15px}
